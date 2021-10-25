@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/sl_Projects')
+                        InlineKeyboardButton('Group', url='https://t.me/sl_Movies_Group')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/sl_Projects")
+                        InlineKeyboardButton("Group", url="https://t.me/sl_Movies_Group")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,7 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/sl_Projects'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/sl_Movie_Updates'),
             InlineKeyboardButton('Source Code', url='https://github.com/hemanthss567/Media-Search-bot')
         ]
         ]
