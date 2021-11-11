@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Group', url='https://t.me/sl_Movies_Group')
+                        InlineKeyboardButton('Group', url='https://t.me/Filmcornerallgroup')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Group", url="https://t.me/sl_Movies_Group")
+                        InlineKeyboardButton("Group", url="https://t.me/Filmcornerallgroup")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/sl_Movie_Updates'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/Filmcornerall'),
             InlineKeyboardButton('Source Code', url='https://github.com/hemanthss567/Media-Search-bot')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/hemanthss567/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/sl_Projects'>Sl_Projects</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/hemanthss567/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/Filmcornerall'>Film Corner</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
