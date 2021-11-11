@@ -272,7 +272,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/sl_Movie_Updates'),
+                    InlineKeyboardButton('Update Channel', url='https://t.me/Filmcornerall'),
                     InlineKeyboardButton('Source Code', url='https://github.com/hemanthss567/Media-Search-bot')
                 ]
                 ]
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('GROUP', url='https://t.me/Sl_MOVIES_GROUP'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/sl_MOVIE_UPDATES')
+                        InlineKeyboardButton('GROUP', url='https://t.me/Filmcornerallgroup'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/Filmcornerall')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('GROUP', url='https://t.me/SL_MOVIES_GROUP'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/sL_MOVIE_UPDATES')
+                        InlineKeyboardButton('GROUP', url='https://t.me/Filmcornerallgroup'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/Filmcornerall')
                     ]
                     ]
                 
